@@ -1,9 +1,7 @@
 @import './base/normalise';
 
-// @import './base/fonts';
+@import './base/fonts';
 // @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
-@import './base/normalise';
 
 @import './utils/variables';
 @import './utils/visually-hidden';
@@ -27,6 +25,5 @@
 @import './components/modal';
 @import './components/form';
 @import './components/portfolio';
-@import './components/clients';
 @import './components/filter';
 @import './components/mobile-menu';
