@@ -1,0 +1,39 @@
+header .logo {
+  color: $accent-color;
+  text-decoration: none;
+  font-family: $secondaryFont;
+  @include fonts-properties($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
+  span {
+    color: $black-color;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.header__logo {
+  padding: 16px 0;
+
+  @media screen and (min-width: $tablet) {
+    padding: 26px 0;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 24px 0 25px;
+  }
+}
+
+footer .logo {
+  color: $accent-color;
+  text-decoration: none;
+  font-family: $secondaryFont;
+  @include fonts-properties($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
+
+  span {
+    color: $primery-white-color;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
